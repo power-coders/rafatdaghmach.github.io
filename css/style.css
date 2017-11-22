@@ -1,5 +1,26 @@
+/*------Imported files------*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:600|Roboto:300,400');
+@import url('../fonts/font-awesome-4.7.0/css/font-awesome.min.css');
+
 .navImg {
     height: 200px;
     width: 200px;
     padding: 20px 0;
+}
+
+.margin {
+    border: black solid 1px;
+}
+
+@media screen and (max-width: 500px) {
+.mobile {
+    display: none;
+    }
+}
+    
+    
+@media screen and (min-width: 500px) {
+.laptop {
+    display: none;
+    }
 }
